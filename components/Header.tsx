@@ -3,7 +3,7 @@ import { Aperture, Sparkles } from 'lucide-react';
 
 export const Header: React.FC = () => {
   return (
-    <header className="w-full py-4 px-6 border-b border-[#27272a] bg-[#09090b]/80 backdrop-blur-md sticky top-0 z-50">
+    <header className="w-full py-4 px-6 border-b border-[#27272a] bg-[#09090b]/80 backdrop-blur-md sticky top-0 z-[100]">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center text-white">
